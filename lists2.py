@@ -32,4 +32,25 @@ last_element = shopping_list[-1]
 element5 = shopping_list[5]
 print(element5)
 print(last_element)
+print()
 
+#------------------------------------------------------
+
+#Slicing lists
+suitcase = ['shirt', 'shirt', 'pants', 'pants', 'pajamas', 'books']
+#print firt 4 items
+beginning = suitcase[0:4]
+print(beginning)
+
+#select middle 2 items
+middle = suitcase[2:4]
+
+suitcase = ['shirt', 'shirt', 'pants', 'pants', 'pajamas', 'books']
+#Select first 3 items
+start = suitcase[:3]
+#Select last 2 items
+end = suitcase[-2:]
+
+#------------------------------------------------------
+
+#Counting elements in a list
