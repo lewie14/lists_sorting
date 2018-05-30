@@ -19,5 +19,17 @@ print()
 employees = ['Michael', 'Dwight', 'Jim', 'Pam', 'Ryan', 'Andy', 'Robert']
 index4 = employees[4]
 print(len(employees))
+#print(employees[8]) --------------- Makes an error coz out of range
+print(employees[4])
+print()
 
+#------------------------------------------------------
+
+#Last element selection
+shopping_list = ['eggs', 'butter', 'milk', 'cucumbers', 'juice', 'cereal']
+print(len(shopping_list))
+last_element = shopping_list[-1]
+element5 = shopping_list[5]
+print(element5)
+print(last_element)
 
